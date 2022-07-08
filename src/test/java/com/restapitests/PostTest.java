@@ -11,6 +11,7 @@ import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -54,7 +55,12 @@ public class PostTest extends BaseTest {
     @Test
     public void createEmployeeDetailsUsingJsonFile() {
         try {
-            String content = new String(Files.readAllBytes(Paths.get("src/main/java/com/TestData/Employee.json")));
+            String content = null;
+            try {
+                content = new String(Files.readAllBytes(Paths.get(getClass().getClassLoader().getResource("TestData/Employee.json").toURI())));
+            } catch (URISyntaxException e) {
+                throw new RuntimeException(e);
+            }
             String postBody = content.replace("551", getId());
             Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(postBody).log().all()
                     .post("/EmployeeDetails");

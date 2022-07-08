@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestSuite" time="4.872" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="TestSuite" time="4.631" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_202\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\samir\AppData\Local\Microsoft\WindowsApps;C:\Users\samir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samir\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\samir\AppData\Local\Microsoft\WindowsApps;;C:\Users\samir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samir\AppData\Roaming\npm;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,9 +65,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingJavaObject" time="3.688"/>
-  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingJsonFile" time="0.657"/>
-  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingJsonObject" time="0.338"/>
-  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingPlainJson" time="0.077"/>
-  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingPojo" time="0.112"/>
+  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingJavaObject" time="4.066"/>
+  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingJsonFile" time="0.228"/>
+  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingJsonObject" time="0.099"/>
+  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingPlainJson" time="0.116"/>
+  <testcase classname="com.restapitests.PostTest" name="createEmployeeDetailsUsingPojo" time="0.122"/>
 </testsuite>

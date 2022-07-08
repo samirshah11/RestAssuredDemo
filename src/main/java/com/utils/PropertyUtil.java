@@ -2,6 +2,7 @@ package com.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Hashtable;
 import java.util.Properties;
 
@@ -13,7 +14,8 @@ public class PropertyUtil {
 
         properties = new Properties();
         try {
-            properties.load(new FileInputStream("src/main/java/com/config/config.properties"));
+            InputStream fileInputStream = PropertyUtil.class.getClassLoader().getResourceAsStream("config/config.properties");
+            properties.load(fileInputStream);
             for (String key : properties.stringPropertyNames()) {
                 String value = properties.getProperty(key);
                 propertyMap.put(key, value);
@@ -29,7 +31,8 @@ public class PropertyUtil {
 
         properties = new Properties();
         try {
-            properties.load(new FileInputStream("src/main/java/com/config/config.properties"));
+            InputStream fileInputStream = PropertyUtil.class.getClassLoader().getResourceAsStream("config/config.properties");
+            properties.load(fileInputStream);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
