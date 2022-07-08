@@ -3,8 +3,21 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/samir/IdeaProjects/RestAssuredDemo">
         <classes>
-            <class name="com.restapitests.GetTests"/>
-            <class name="com.restapitests.PostTest"/>
+            <class name="com.restapitests.GetTests">
+                <methods>
+                    <include name="getEmployeeDetails"/>
+                    <include name="getEmployeeDetailsWithResource"/>
+                </methods>
+            </class>
+            <class name="com.restapitests.PostTest">
+                <methods>
+                    <include name="createEmployeeDetailsUsingPlainJson"/>
+                    <include name="createEmployeeDetailsUsingJsonFile"/>
+                    <include name="createEmployeeDetailsUsingJavaObject"/>
+                    <include name="createEmployeeDetailsUsingJsonObject"/>
+                    <include name="createEmployeeDetailsUsingPojo"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
