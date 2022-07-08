@@ -57,7 +57,7 @@ public class PostTest extends BaseTest {
         try {
             String content = null;
             try {
-                content = new String(Files.readAllBytes(Paths.get(getClass().getClassLoader().getResource("TestData/Employee.json").toURI())));
+                content = new String(Files.readAllBytes(Paths.get(PostTest.class.getClass().getClassLoader().getResource("TestData/Employee.json").toURI())));
             } catch (URISyntaxException e) {
                 throw new RuntimeException(e);
             }
