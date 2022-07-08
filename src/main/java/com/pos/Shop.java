@@ -1,0 +1,16 @@
+package com.pos;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+
+public class Shop {
+    private String AddressLine1;
+    private String AddressLine2;
+    private String City;
+    private String District;
+}

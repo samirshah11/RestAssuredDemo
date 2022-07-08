@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="3396" started-at="2022-07-07T14:01:11 IST" finished-at="2022-07-07T14:01:14 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/samir/IdeaProjects/RestAssuredDemo" duration-ms="3396" started-at="2022-07-07T14:01:11 IST" finished-at="2022-07-07T14:01:14 IST">
+      <class name="com.restapitests.PostTest">
+        <test-method status="PASS" signature="createEmployeeDetailsUsingPlainJson()[pri:0, instance:com.restapitests.PostTest@e81285]" name="createEmployeeDetailsUsingPlainJson" duration-ms="139" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeDetailsUsingPlainJson -->
+        <test-method status="PASS" signature="createEmployeeDetailsUsingJsonFile()[pri:0, instance:com.restapitests.PostTest@e81285]" name="createEmployeeDetailsUsingJsonFile" duration-ms="141" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeDetailsUsingJsonFile -->
+        <test-method status="PASS" signature="createEmployeeDetailsUsingJavaObject()[pri:0, instance:com.restapitests.PostTest@e81285]" name="createEmployeeDetailsUsingJavaObject" duration-ms="369" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeDetailsUsingJavaObject -->
+        <test-method status="PASS" signature="createEmployeeDetailsUsingJsonObject()[pri:0, instance:com.restapitests.PostTest@e81285]" name="createEmployeeDetailsUsingJsonObject" duration-ms="114" started-at="2022-07-07T14:01:14 IST" finished-at="2022-07-07T14:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeDetailsUsingJsonObject -->
+        <test-method status="PASS" signature="createEmployeeDetailsUsingPojo()[pri:0, instance:com.restapitests.PostTest@e81285]" name="createEmployeeDetailsUsingPojo" duration-ms="154" started-at="2022-07-07T14:01:14 IST" finished-at="2022-07-07T14:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeDetailsUsingPojo -->
+      </class> <!-- com.restapitests.PostTest -->
+      <class name="com.restapitests.GetTests">
+        <test-method status="PASS" signature="initializeReport()[pri:0, instance:com.restapitests.GetTests@1610302]" name="initializeReport" is-config="true" duration-ms="291" started-at="2022-07-07T14:01:10 IST" finished-at="2022-07-07T14:01:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="PASS" signature="createTest(java.lang.reflect.Method)[pri:0, instance:com.restapitests.GetTests@1610302]" name="createTest" is-config="true" duration-ms="8" started-at="2022-07-07T14:01:11 IST" finished-at="2022-07-07T14:01:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.restapitests.GetTests.getEmployeeDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method status="PASS" signature="getEmployeeDetails()[pri:0, instance:com.restapitests.GetTests@1610302]" name="getEmployeeDetails" duration-ms="2281" started-at="2022-07-07T14:01:11 IST" description="This test will get the details of the employee and validate response" finished-at="2022-07-07T14:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetails -->
+        <test-method status="PASS" signature="storeResult(org.testng.ITestResult)[pri:0, instance:com.restapitests.GetTests@1610302]" name="storeResult" is-config="true" duration-ms="1" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetails status=SUCCESS method=GetTests.getEmployeeDetails()[pri:0, instance:com.restapitests.GetTests@1610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeResult -->
+        <test-method status="PASS" signature="getEmployeeDetailsWithResource(java.lang.String,java.lang.String)[pri:0, instance:com.restapitests.GetTests@1610302]" name="getEmployeeDetailsWithResource" duration-ms="84" started-at="2022-07-07T14:01:13 IST" data-provider="getEmployeeData" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetailsWithResource -->
+        <test-method status="PASS" signature="createTest(java.lang.reflect.Method)[pri:0, instance:com.restapitests.GetTests@1610302]" name="createTest" is-config="true" duration-ms="0" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.restapitests.GetTests.getEmployeeDetailsWithResource(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method status="PASS" signature="storeResult(org.testng.ITestResult)[pri:0, instance:com.restapitests.GetTests@1610302]" name="storeResult" is-config="true" duration-ms="0" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetailsWithResource status=SUCCESS method=GetTests.getEmployeeDetailsWithResource(java.lang.String,java.lang.String)[pri:0, instance:com.restapitests.GetTests@1610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeResult -->
+        <test-method status="PASS" signature="createTest(java.lang.reflect.Method)[pri:0, instance:com.restapitests.GetTests@1610302]" name="createTest" is-config="true" duration-ms="0" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.restapitests.GetTests.getEmployeeDetailsWithResource(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method status="PASS" signature="getEmployeeDetailsWithResource(java.lang.String,java.lang.String)[pri:0, instance:com.restapitests.GetTests@1610302]" name="getEmployeeDetailsWithResource" duration-ms="72" started-at="2022-07-07T14:01:13 IST" data-provider="getEmployeeData" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CBD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetailsWithResource -->
+        <test-method status="PASS" signature="storeResult(org.testng.ITestResult)[pri:0, instance:com.restapitests.GetTests@1610302]" name="storeResult" is-config="true" duration-ms="0" started-at="2022-07-07T14:01:13 IST" finished-at="2022-07-07T14:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetailsWithResource status=SUCCESS method=GetTests.getEmployeeDetailsWithResource(java.lang.String,java.lang.String)[pri:0, instance:com.restapitests.GetTests@1610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.restapitests.GetTests@1610302]" name="tearDown" is-config="true" duration-ms="258" started-at="2022-07-07T14:01:14 IST" finished-at="2022-07-07T14:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.restapitests.GetTests -->
+    </test> <!-- C:/Users/samir/IdeaProjects/RestAssuredDemo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

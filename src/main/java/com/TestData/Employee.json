@@ -1,0 +1,20 @@
+{
+  "EmpId": 551,
+  "Name": "ABC",
+  "Addresses": [
+    {
+      "Home": {
+        "AddressLine1": "House No:123",
+        "AddressLine2": "Near Azad Cinema",
+        "City": "Ahemedabad",
+        "District": "Ahemedabad"
+      },
+      "Shop": {
+        "AddressLine1": "shop No:366",
+        "AddressLine2": "Near Miraj Cinema",
+        "City": "Ahemedabad",
+        "District": "Ahemedabad"
+      }
+    }
+  ]
+}

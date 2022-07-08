@@ -1,0 +1,1325 @@
+{
+  "EmployeeDetails": [
+    {
+      "EmpId": 1,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 2,
+      "Name": "CBD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:231",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "Shop No:255",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 25,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 26,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "149",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "65777",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "22708",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 999,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 998,
+      "Name": "ABD"
+    },
+    {
+      "EmpId": "6807",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "80069",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 551,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "87505",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "97041",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "name": "samir",
+      "empId": 46786,
+      "addresses": [
+        {
+          "home": {
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "city": "Mumbai",
+            "district": "Mumbai"
+          },
+          "shop": {
+            "city": "Mumbai",
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "addressLine1": "House No:123"
+          }
+        }
+      ],
+      "EmpId": "tV1V48d"
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "46121",
+      "Name": "ABD"
+    },
+    {
+      "name": null,
+      "addresses": null,
+      "empId": 0,
+      "EmpId": "CNfq9By"
+    },
+    {
+      "name": null,
+      "addresses": null,
+      "empId": 0,
+      "EmpId": "oQi1hXZ"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "home": {
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "city": "Mumbai",
+            "district": "Mumbai"
+          },
+          "shop": {
+            "ity": "Mumbai",
+            "district": "Mumbai",
+            "addressLine2": "House No:123",
+            "addressLine1": "House No:123"
+          }
+        }
+      ],
+      "empId": 5646664,
+      "EmpId": "HmSeq1p"
+    },
+    {
+      "name": "samir",
+      "empId": 5646664,
+      "addresses": [
+        {
+          "shop": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          },
+          "home": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "BVX5fS_"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "shop": {
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "city": "Mumbai"
+          },
+          "home": {
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "city": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 5646664
+    },
+    {
+      "EmpId": "46960",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 69142,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "64719",
+      "Name": "ABD"
+    },
+    {
+      "EmpId": "77334",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "76663",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 71319,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "60955",
+      "Name": "ABD"
+    },
+    {
+      "EmpId": "37490",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "home": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          },
+          "shop": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 74155
+    },
+    {
+      "EmpId": "10025",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 76854,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "21061",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "61371",
+      "Name": "ABD"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "shop": {
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "addressLine1": "House No:123",
+            "city": "Mumbai"
+          },
+          "home": {
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "addressLine1": "House No:123",
+            "city": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 32097
+    },
+    {
+      "EmpId": "1347",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 61855,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "13473",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "99753",
+      "Name": "ABD"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "shop": {
+            "addressLine1": "House No:123",
+            "district": "Mumbai",
+            "addressLine2": "House No:123",
+            "city": "Mumbai"
+          },
+          "home": {
+            "addressLine1": "House No:123",
+            "district": "Mumbai",
+            "addressLine2": "House No:123",
+            "city": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 89089
+    },
+    {
+      "EmpId": "78360",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 27363,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "44252",
+      "Name": "ABD"
+    },
+    {
+      "EmpId": "93144",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "home": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          },
+          "shop": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 61625
+    },
+    {
+      "EmpId": "44783",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "48517",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "4739",
+      "Name": "ABD"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "home": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          },
+          "shop": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 84990
+    },
+    {
+      "EmpId": 26206,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "30478",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 66879,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "85206",
+      "Name": "ABD"
+    },
+    {
+      "EmpId": "97108",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "shop": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          },
+          "home": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "addressLine2": "House No:123",
+            "district": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 83858
+    },
+    {
+      "EmpId": "93464",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "29198",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "5755",
+      "Name": "ABD"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "home": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "district": "Mumbai",
+            "addressLine2": "House No:123"
+          },
+          "shop": {
+            "city": "Mumbai",
+            "addressLine1": "House No:123",
+            "district": "Mumbai",
+            "addressLine2": "House No:123"
+          }
+        }
+      ],
+      "EmpId": 50999
+    },
+    {
+      "EmpId": 90064,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "46630",
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": 70481,
+      "Name": "ABC",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine1": "House No:123",
+            "AddressLine2": "Near Azad Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          },
+          "Shop": {
+            "AddressLine1": "shop No:366",
+            "AddressLine2": "Near Miraj Cinema",
+            "City": "Ahemedabad",
+            "District": "Ahemedabad"
+          }
+        }
+      ]
+    },
+    {
+      "EmpId": "72578",
+      "Name": "ABD",
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ]
+    },
+    {
+      "Addresses": [
+        {
+          "Home": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        },
+        {
+          "Shop": {
+            "AddressLine2": "House No:123",
+            "AddressLine1": "House No:123",
+            "City": "Mumbai",
+            "District": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": "88057",
+      "Name": "ABD"
+    },
+    {
+      "name": "samir",
+      "addresses": [
+        {
+          "home": {
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "addressLine1": "House No:123",
+            "city": "Mumbai"
+          },
+          "shop": {
+            "addressLine2": "House No:123",
+            "district": "Mumbai",
+            "addressLine1": "House No:123",
+            "city": "Mumbai"
+          }
+        }
+      ],
+      "EmpId": 50343
+    }
+  ]
+}
