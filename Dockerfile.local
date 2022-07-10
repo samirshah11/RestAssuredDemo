@@ -12,6 +12,6 @@ RUN apt-get update \
 
 RUN npm install -g json-server
 
-ENTRYPOINT ["json-server", "--id", "EmpId", "--port", "8080", "--host", "0.0.0.0", "--watch", "Employee.json"]
+ENTRYPOINT ["json-server", "--id", "EmpId", "--port", "8082", "--host", "0.0.0.0", "--watch", "Employee.json"]
 
 CMD ["/tmp/Employee.json"]
