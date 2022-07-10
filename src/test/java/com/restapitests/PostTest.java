@@ -4,23 +4,19 @@ import com.pos.Address;
 import com.pos.EmployeeRoot;
 import com.pos.Home;
 import com.pos.Shop;
+import com.utils.CommonUtils;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
-
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 
+import static com.utils.CommonUtils.getId;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
-import static com.utils.CommonUtils.*;
 
 public class PostTest extends BaseTest {
     @Test
@@ -34,14 +30,14 @@ public class PostTest extends BaseTest {
                 "        \"Home\": {\n" +
                 "          \"AddressLine1\": \"House No:123\",\n" +
                 "          \"AddressLine2\": \"Near Azad Cinema\",\n" +
-                "          \"City\": \"Ahemedabad\",\n" +
-                "          \"District\": \"Ahemedabad\"\n" +
+                "          \"City\": \"Ahmedabad\",\n" +
+                "          \"District\": \"Ahmedabad\"\n" +
                 "        },\n" +
                 "        \"Shop\": {\n" +
                 "          \"AddressLine1\": \"shop No:366\",\n" +
                 "          \"AddressLine2\": \"Near Miraj Cinema\",\n" +
-                "          \"City\": \"Ahemedabad\",\n" +
-                "          \"District\": \"Ahemedabad\"\n" +
+                "          \"City\": \"Ahmedabad\",\n" +
+                "          \"District\": \"Ahmedabad\"\n" +
                 "        }\n" +
                 "      }\n" +
                 "    ]\n" +
@@ -54,21 +50,12 @@ public class PostTest extends BaseTest {
 
     @Test
     public void createEmployeeDetailsUsingJsonFile() {
-        try {
-            String content = null;
-            try {
-                content = new String(Files.readAllBytes(Paths.get(getClass().getClassLoader().getResource("./TestData/Employee.json").toURI())));
-            } catch (URISyntaxException e) {
-                throw new RuntimeException(e);
-            }
-            String postBody = content.replace("551", getId());
-            Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(postBody).log().all()
+           CommonUtils commonUtils = new CommonUtils();
+           String content=commonUtils.getFileContent("TestData/Employee.json");
+           String postBody = content.replace("551", getId());
+           Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(postBody).log().all()
                     .post("/EmployeeDetails");
             assertThat(rs.statusCode(), is(equalTo(201)));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
     }
 
     @Test
@@ -150,7 +137,6 @@ public class PostTest extends BaseTest {
                 .log().all().post("/EmployeeDetails");
         assertThat(rs.statusCode(), is(equalTo(201)));
     }
-
 
 
 }

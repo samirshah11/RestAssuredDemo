@@ -5,11 +5,12 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
-public final class CommonUtils {
+public class CommonUtils {
 
-    private CommonUtils(){}
     public static int getRandomNumber(){
         return new Faker().number().numberBetween(1,100000);
     }
@@ -33,4 +34,22 @@ public final class CommonUtils {
         return String.valueOf(randomNumber);
     }
 
+    public String getFileContent(String file){
+
+        String content;
+        StringBuilder builder = new StringBuilder();
+        int i=0;
+        InputStream fileInputStream = this.getClass().getClassLoader().getResourceAsStream(file);
+        while (true) {
+            try {
+                if (((i = fileInputStream.read()) != -1)) break;
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+            System.out.print((char) i);
+            builder.append((char) i);
+        }
+        content = builder.toString();
+        return content;
+    }
 }

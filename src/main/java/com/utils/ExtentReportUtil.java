@@ -22,7 +22,7 @@ public final class ExtentReportUtil {
 
     public static void initReport() {
         reports = new ExtentReports();
-        reporter = new ExtentSparkReporter(new File(System.getProperty("user.dir") + "/spark.html"));
+        reporter = new ExtentSparkReporter(new File(System.getProperty("user.dir") + "/test-output/spark.html"));
         reports.attachReporter(reporter);
     }
 
