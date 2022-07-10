@@ -15,7 +15,7 @@ public class GetTests extends BaseTest {
     @Test(description = "This test will get the details of the employee and validate response")
     public void getEmployeeDetails() {
 
-        Response response = given().log().all().baseUri(propMap.get("baseurl")).get("/EmployeeDetails");
+        Response response = given().log().all().baseUri(baseurl).get("/EmployeeDetails");
         System.out.println(response.asString());
         List<Integer> empId = response.path("EmpId");
         assertThat(empId, hasItems(1, 2));
@@ -29,7 +29,7 @@ public class GetTests extends BaseTest {
 
     @Test(dataProvider = "getEmployeeData",dataProviderClass = DataProviderUtil.class )
     public void getEmployeeDetailsWithResource(String id,String name) {
-        Response rs = given().baseUri(propMap.get("baseurl")).pathParams("EmpId",id)
+        Response rs = given().baseUri(baseurl).pathParams("EmpId",id)
                 .log().all().
                 get("/EmployeeDetails"+"/{EmpId}");
         assertThat(rs.path("Name"), is(equalTo(name)));

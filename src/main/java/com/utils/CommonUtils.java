@@ -24,8 +24,15 @@ public class CommonUtils {
     }
 
     public static String getId() {
+        String baseurl;
+        if(System.getProperty("ApiHost")!=null){
+            baseurl="http://"+System.getProperty("ApiHost")+":8082";
+        }
+        else {
+            baseurl=PropertyUtil.getPropertyValue("baseurl");
+        }
 
-        Response response = given().baseUri(PropertyUtil.getPropertyValue("baseurl")).get("/EmployeeDetails");
+        Response response = given().baseUri(baseurl).get("/EmployeeDetails");
         List<Integer> id_lst = response.path("EmpId");
         int randomNumber = CommonUtils.getRandomNumber();
         while (id_lst.contains(randomNumber)) {

@@ -43,7 +43,7 @@ public class PostTest extends BaseTest {
                 "    ]\n" +
                 "  }";
 
-        Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(s)
+        Response rs = given().baseUri(baseurl).header("content-type", ContentType.JSON).body(s)
                 .post("/EmployeeDetails");
         assertThat(rs.statusCode(), is(equalTo(201)));
     }
@@ -53,7 +53,7 @@ public class PostTest extends BaseTest {
            CommonUtils commonUtils = new CommonUtils();
            String content=commonUtils.getFileContent("TestData/Employee.json");
            String postBody = content.replace("551", getId());
-           Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(postBody).log().all()
+           Response rs = given().baseUri(baseurl).header("content-type", ContentType.JSON).body(postBody).log().all()
                     .post("/EmployeeDetails");
             assertThat(rs.statusCode(), is(equalTo(201)));
     }
@@ -85,7 +85,7 @@ public class PostTest extends BaseTest {
         addresses.add(address2);
         root.put("Addresses", addresses);
 
-        Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(root)
+        Response rs = given().baseUri(baseurl).header("content-type", ContentType.JSON).body(root)
                 .post("/EmployeeDetails");
         assertThat(rs.statusCode(), is(equalTo(201)));
     }
@@ -117,7 +117,7 @@ public class PostTest extends BaseTest {
         addresses.put(address2);
         root.put("Addresses", addresses);
 
-        Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(root.toMap())
+        Response rs = given().baseUri(baseurl).header("content-type", ContentType.JSON).body(root.toMap())
                 .log().all().post("/EmployeeDetails");
         assertThat(rs.statusCode(), is(equalTo(201)));
     }
@@ -133,7 +133,7 @@ public class PostTest extends BaseTest {
         EmployeeRoot employeeRoot = new EmployeeRoot(Integer.parseInt(getId()), "samir", addresslist);
 
 
-        Response rs = given().baseUri(propMap.get("baseurl")).header("content-type", ContentType.JSON).body(employeeRoot)
+        Response rs = given().baseUri(baseurl).header("content-type", ContentType.JSON).body(employeeRoot)
                 .log().all().post("/EmployeeDetails");
         assertThat(rs.statusCode(), is(equalTo(201)));
     }

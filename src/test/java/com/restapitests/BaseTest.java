@@ -11,12 +11,19 @@ import java.util.Hashtable;
 
 public class BaseTest {
     static Hashtable<String,String> propMap ;
+    static String baseurl;
 
     @BeforeSuite
     public void initializeReport(){
         System.out.println("Initializing reports...........");
         ExtentReportUtil.initReport();
         propMap= PropertyUtil.loadProperties();
+        if(System.getProperty("ApiHost")!=null){
+            baseurl="http://"+System.getProperty("ApiHost")+":8082";
+        }
+        else {
+            baseurl=propMap.get("baseurl");
+        }
 
     }
 
